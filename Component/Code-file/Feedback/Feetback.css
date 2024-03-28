@@ -1,0 +1,83 @@
+body{
+   
+    color: white;
+    font-family: Arial, sans-serif; 
+      height: 150vh;
+    
+}
+
+.cont {
+
+    background-image: url('../../assests/images/home.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 3em; /* Set font size for h1 */
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000000; /* Black boundary border */
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #000000; /* Black label color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Remove default border */
+    border-bottom: 3px solid black; /* Bottom border only */
+    background-color: transparent; /* Transparent background */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue submit button */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+/* Media queries for responsive font sizes */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
+
+}

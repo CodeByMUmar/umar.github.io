@@ -1,0 +1,59 @@
+body{
+    background-image: url('../../assests/images/home.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif; 
+     
+    
+}
+.main-body{
+    height: 150vh;
+    text-align: center;
+}
+.container {
+    margin-top: 20%; 
+}
+
+h1 {
+    font-size: 3rem; /* Set font size for h1 */
+}
+
+h2 {
+    font-size: 2em; /* Set font size for h2 */
+}
+
+h3 {
+    font-size: 1.5em; /* Set font size for h3 */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Set button background color to transparent */
+    color: white; /* Set button text color to white */
+    border: 2px solid white; /* Add border */
+    text-decoration: none; /* Remove default link underline */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+/* Media queries for responsive font sizes */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.8em; /* Adjust font size for smaller screens */
+    }
+
+    h3 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+}
+
